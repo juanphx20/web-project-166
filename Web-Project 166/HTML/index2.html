@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Template</title>
+    <style>
+        .div-outline {
+            border: 2px solid rgb(0, 0, 0);
+        }
+
+        #header {
+            padding: 65px;
+            margin: 0 20px 20px 20px;
+
+        }
+
+        #main-div {
+            padding: 350px;
+            margin: 0 20px 0 20px;
+
+        }
+
+        #footer {
+            padding: 50px;
+            margin: 20px 20px 0 20px;
+
+        }
+
+        body {}
+    </style>
+
+</head>
+
+<body>
+    <a href="#" id="myLink">Click Me</a>
+    <header id="header" class="div-outline"></header>
+    <main id="main-div" class="div-outline">
+
+    </main>
+    <footer id="footer" class="div-outline"></footer>
+
+
+    <script src="jquery-3.6.4.min.js">
+        $(document).ready(function() {
+
+            $("#myLink").click(function() {
+                alert("Hello World");
+            });
+        });
+        
+        let A = "Hello";
+        let B = " World";
+        let C = A + B ;
+        console.log(C);
+    
+ 
+    </script>
+</body></html>
